@@ -1,0 +1,98 @@
+body {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+ 
+ }
+
+.spacing{
+
+  padding-top: 50px;
+  padding-bottom : 50px;
+ 
+  
+}
+
+.content{
+
+  padding-bottom:50px;
+}
+
+
+.addborder{
+
+  border-bottom: solid black 0.5px;
+}
+
+.navbar {
+  
+  transition: opacity 0.75s;
+  opacity: 1;
+ }
+
+ .navbar.hide {
+  opacity: 0;
+}
+
+#hero-text{
+   
+   font-size: calc(35px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#home-section {
+  background: url("../img/Home.png") no-repeat;
+  min-height: 1000px;
+  background-size: cover;
+  background-attachment: fixed; 
+  font-size: 55px;
+}
+
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.8; }
+  #home-section .fa {
+    color: #008ed6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#explore-section .fa, #share-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#create-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+  .imagewrapper{
+
+    width: 80%;
+  }
+
+  #huga-description{
+
+    background: #f0cccc;
+    background-size: cover;
+    background-attachment: fixed; 
+    color: #00305b;
+
+  }
+
+  @media only screen and (max-width: 990px) {
+
+    #hero-text{
+      position: relative;
+      top: 250px;
+      text-align: center;
+
+   }
+
+  }
+  
