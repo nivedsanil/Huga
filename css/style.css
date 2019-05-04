@@ -88,8 +88,10 @@ body {
   @media only screen and (max-width: 990px) {
 
     #hero-text{
+
       position: relative;
       text-align: center;
+      margin-top: 20vh;
 
    }
 
