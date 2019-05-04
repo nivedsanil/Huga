@@ -7,7 +7,7 @@
       clearTimeout(timeout);
       
       timeout = setTimeout(function(){
-        if ($window.scrollTop() < 650) {
+        if ($window.scrollTop() < 150) {
           $navbar.removeClass('hide');
         } else {
           $navbar.addClass('hide');

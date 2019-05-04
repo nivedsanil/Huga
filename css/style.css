@@ -73,7 +73,7 @@ body {
 
   .imagewrapper{
 
-    width: 80%;
+    width: 100%;
   }
 
   #huga-description{
@@ -94,4 +94,15 @@ body {
    }
 
   }
+  @media (max-width: 575px) {
+  
+    .navbar-collapse
+      {
+          padding: 20px;
+          background-color: black;
+          opacity: 0.8;
+          color: white;
+      }
+  }
+
   
