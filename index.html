@@ -4,17 +4,17 @@
 <head>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
-  <title>LoopLab</title>
+  <title>Huga Ice Creams | Home</title>
 </head>
 
 <body id="home">
 
   <!-- === Navbar ===-->
-  <nav class="navscroll navbar navbar-expand-sm bg-transparent navbar-dark fixed-top">
+  <nav class="navscroll navbar navbar-expand-sm bg-transparent navbar-dark fixed-top wow">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="img/vamoslogo2.png" width="170" height=auto alt="">
@@ -48,7 +48,7 @@
           <div class="row">
             <div class="col-lg-7 d-none d-lg-block">
             </div>
-              <div class="container col-lg-5">
+              <div class="container col-lg-5 wow pulse ">
                   <p id="hero-text">Designing a healthy identity for a retail ice cream brand.</p>
                 </div>
               </div>
@@ -60,7 +60,7 @@
 
   <!-- === Huga Image === -->
 
-  <section id="explore-section" class="bg-light text-muted py-5">
+  <section id="hugaimg" class="bg-light py-5 wow fadeIn">
       <div class="imagewrapper d-block mx-auto">
           <img src="img/Huga.png" alt="" class=" img-fluid ">
       </div>
@@ -72,11 +72,11 @@
     <div class="container">
       <div class="row">
         <div class="col">
-            <h1 class="display-4  addborder spacing font-weight-light">Huga For Ice Cream </h1>
-            <h2 class="spacing font-weight-bold">A unified brand experience.</h3>
-            <p class="lead content addborder">Drawing inspiration from the Danish word for Comfort and Well being- Hygge and with the core belief that one should never have to choose between health and indulgent taste.We combined an infectious and inspirational food culture with health coscious people to get a taste of 'good dessert '.</p>
-            <h3 class="font-weight-bold spacing">" I wanted to recreate the joy of ice cream, with none of the guilt. The kind of ice cream, that everyone of all ages could indulge in, without worry. "</h3>
-            <p class="lead font-weight-light content"> - &nbsp Bharat Chandra, Huga Ice Creams</p>
+            <h1 class="display-4  addborder spacing font-weight-light wow fadeInUp">Huga For Ice Cream </h1>
+            <h2 class="spacing font-weight-bold wow fadeInUp">A unified brand experience.</h3>
+            <p class="lead content addborder wow fadeInUp">Drawing inspiration from the Danish word for Comfort and Well being- Hygge and with the core belief that one should never have to choose between health and indulgent taste.We combined an infectious and inspirational food culture with health coscious people to get a taste of 'good dessert '.</p>
+            <h3 class="font-weight-bold spacing wow fadeInUp">" I wanted to recreate the joy of ice cream, with none of the guilt. The kind of ice cream, that everyone of all ages could indulge in, without worry. "</h3>
+            <p class="lead font-weight-light content wow fadeInUp"> - &nbsp Bharat Chandra, Huga Ice Creams</p>
         </div>
       </div>
     </div>
@@ -84,7 +84,7 @@
 
 
   <!-- === Huga Image2 === -->
-  <section id="explore-section" class="bg-light text-muted py-5">
+  <section id="hugaimg" class="bg-light py-5 wow fadeIn">
     <div class="container">
         <div class="imagewrapper d-block mx-auto">
             <img src="img/HugaIM2.png" alt="" class=" img-fluid ">
@@ -107,13 +107,15 @@
       </div>
     </footer>
 
+  <script src="js/wow.js"></script>
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
-  <script>
-      new WOW().init();
-  </script>
+  
   
 </body>
 

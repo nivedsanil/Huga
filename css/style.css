@@ -1,30 +1,24 @@
 body {
   color: #fff;
   font-family: 'Poppins', sans-serif;
- 
  }
 
 .spacing{
 
   padding-top: 50px;
-  padding-bottom : 50px;
- 
-  
+  padding-bottom : 50px; 
 }
 
 .content{
-
   padding-bottom:50px;
 }
 
 
 .addborder{
-
   border-bottom: solid black 0.5px;
 }
 
-.navbar {
-  
+.navbar { 
   transition: opacity 0.75s;
   opacity: 1;
  }
@@ -34,7 +28,6 @@ body {
 }
 
 #hero-text{
-   
    font-size: calc(35px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
@@ -48,8 +41,7 @@ body {
 
   #home-section .home-inner {
     padding-top: 150px; }
-  #home-section .card-form {
-    opacity: 0.8; }
+
   #home-section .fa {
     color: #008ed6;
     background: #fff;
@@ -57,16 +49,9 @@ body {
     border-radius: 5px;
     font-size: 30px; }
 
-#explore-section .fa, #share-section .fa {
+#hugaimg{
   color: #fff;
   background: #333;
-  padding: 4px;
-  border-radius: 5px;
-  font-size: 30px; }
-
-#create-section .fa {
-  color: #008ed6;
-  background: #fff;
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
