@@ -3,19 +3,42 @@ body {
   font-family: 'Poppins', sans-serif;
  }
 
+ hr {
+
+  margin-left:0;
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
+  width: 60%;
+}
+
+
+.lead{
+
+  padding-bottom: 40px;
+  font-size: 18px;
+  width: 90%
+}
 .spacing{
 
-  padding-top: 50px;
-  padding-bottom : 50px; 
+  padding-top: 120px;
+  padding-bottom : 40px; 
 }
 
-.content{
-  padding-bottom:50px;
+.less-spacing{
+  padding-top: 40px;
+  padding-bottom:40px;
 }
 
+.container.custom-container {
+  padding: 0 100px;
+}
 
 .addborder{
   border-bottom: solid black 0.5px;
+  
 }
 
 .navbar { 
@@ -27,16 +50,13 @@ body {
   opacity: 0;
 }
 
-#hero-text{
-   font-size: calc(35px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-}
-
 #home-section {
   background: url("../img/Home.png") no-repeat;
   min-height: 1000px;
   background-size: cover;
   background-attachment: fixed; 
-  font-size: 55px;
+  background-position: center center;
+  font-size: 45px;
 }
 
   #home-section .home-inner {
@@ -54,12 +74,12 @@ body {
   background: #333;
   padding: 4px;
   border-radius: 5px;
-  font-size: 30px; }
-
-  .imagewrapper{
-
-    width: 100%;
+  font-size: 30px;
+  width: 100%;
+  height: auto; 
   }
+
+
 
   #huga-description{
 
@@ -70,15 +90,15 @@ body {
 
   }
 
+  #quote{
+
+   
+    font-size: 40px;
+  }
+
+ 
   @media only screen and (max-width: 990px) {
 
-    #hero-text{
-
-      position: relative;
-      text-align: center;
-      margin-top: 20vh;
-
-   }
 
   }
   @media (max-width: 575px) {
@@ -91,5 +111,70 @@ body {
           color: white;
       }
   }
+
+  @media screen and (max-width: 1024px) {
+    
+    #home-section {
+
+      font-size: 35px;
+      min-height: 500px;
+    
+    }  
+    
+    }
+    
+    @media screen and (max-width: 950px) {
+     
+      .spacing{
+
+        padding-top: 50px;
+        padding-bottom : 30px; 
+      }
+      
+      .less-spacing{
+        padding-top: 20px;
+        padding-bottom:20px;
+      }
+
+      .container.custom-container {
+        padding: 0 15px;
+      }
+
+      hr{
+        width: 100%
+      }
+     
+    }
+    
+    
+    @media screen and (max-width: 650px) {
+     
+
+    
+    }
+    
+    @media screen and (max-width: 480px) {
+     
+     
+      
+   h1{
+
+    font-size: 30px;
+   }
+
+   h2{
+
+    font-size: 25px !important;
+   }
+
+   .lead{
+
+    width: 100%;
+   }
+  
+     
+
+    }
+    
 
   
