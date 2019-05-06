@@ -1,19 +1,18 @@
 body {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; 
  }
 
  hr {
 
   margin-left:0;
   border: none;
-  height: 1px;
+  height: 2px;
   /* Set the hr color */
-  color: #333; /* old IE */
-  background-color: #333; /* Modern Browsers */
+  color: #00305b;/* old IE */
+  background-color:#00305b;/* Modern Browsers */
   width: 60%;
 }
-
 
 .lead{
 
@@ -36,12 +35,10 @@ body {
   padding: 0 100px;
 }
 
-.addborder{
-  border-bottom: solid black 0.5px;
-  
-}
 
-.navbar { 
+
+.navbar {
+  padding: 20px 100px;
   transition: opacity 0.75s;
   opacity: 1;
  }
@@ -50,24 +47,33 @@ body {
   opacity: 0;
 }
 
+
+
+#textwrapper{
+
+  padding: 0 20px;
+}
+
+
 #home-section {
-  background: url("../img/Home.png") no-repeat;
+  background: url("../img/Home_Img.PNG") no-repeat;
   min-height: 1000px;
   background-size: cover;
   background-attachment: fixed; 
   background-position: center center;
-  font-size: 45px;
+  font-size: 55px;
+  padding-top: 150px;
 }
 
-  #home-section .home-inner {
-    padding-top: 150px; }
 
-  #home-section .fa {
-    color: #008ed6;
-    background: #fff;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: 30px; }
+  #home-section {
+    }
+
+#hero-text{
+
+      padding-top: 80px;
+      padding-left: 60px;
+    }
 
 #hugaimg{
   color: #fff;
@@ -92,22 +98,16 @@ body {
 
   #quote{
 
-   
     font-size: 40px;
   }
-
  
-  @media only screen and (max-width: 990px) {
-
-
-  }
   @media (max-width: 575px) {
   
     .navbar-collapse
       {
           padding: 20px;
           background-color: black;
-          opacity: 0.8;
+          background: rgba(0, 0, 0, 0.8);
           color: white;
       }
   }
@@ -117,64 +117,80 @@ body {
     #home-section {
 
       font-size: 35px;
-      min-height: 500px;
-    
-    }  
-    
+      min-height: 300px;
+      padding-bottom: 20px;
     }
     
+  }
+
     @media screen and (max-width: 950px) {
      
       .spacing{
 
-        padding-top: 50px;
-        padding-bottom : 30px; 
+        padding-top: 30px;
+        padding-bottom : 20px; 
       }
       
       .less-spacing{
-        padding-top: 20px;
-        padding-bottom:20px;
+        padding-top: 10px;
+        padding-bottom:10px;
       }
 
       .container.custom-container {
         padding: 0 15px;
       }
 
+      .lead{
+
+        padding-bottom:10px;
+       
+      }
+
       hr{
         width: 100%
+      }
+
+      .navbar{
+
+        padding: 20px
       }
      
     }
     
     
     @media screen and (max-width: 650px) {
-     
-
-    
+         
     }
     
     @media screen and (max-width: 480px) {
-     
-     
-      
+    
    h1{
 
     font-size: 30px;
    }
-
    h2{
 
-    font-size: 25px !important;
+    font-size: 28px !important;
    }
-
    .lead{
 
     width: 100%;
    }
-  
-     
 
-    }
+   #hero-text{
+
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 30px;
+    padding-bottom: 20px;
+  } 
+  
+  #huga-description{
+
+    padding: 0 15px;
+
+  }
+}
     
 
   
