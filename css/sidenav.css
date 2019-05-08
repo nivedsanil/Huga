@@ -1,0 +1,27 @@
+/*///////////////////// ESSENTIAL STYLES ////////////////////////*/
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.sidenav {
+  position: absolute;
+  right: 0;
+  width: 0px;
+  display: none;
+  z-index: 1;
+  background:#000;
+  transition: .5s;
+  /* .flex-column */
+  -webkit-box-orient: vertical!important;
+  -webkit-box-direction: normal!important;
+  -ms-flex-direction: column!important;
+  flex-direction: column!important;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+
+/*////////////////////// OPTIONAL STYLES ////////////////////////*/
+
