@@ -27,59 +27,50 @@ $toggler.click(function() {
 })
 
 function showSidenav() {
+  $('li').css("opacity", "1");
   $sidenav.css('display', 'flex');
-<<<<<<< HEAD
   $sidenav.css('top','0');
+  $('body').css("overflow-y", "hidden");
   window.setTimeout(function() {
-    // Must be number value. Adjust as needed.
     $sidenav.css({
 
-=======
-  $sidenav.css('top', '0');
-  window.setTimeout(function() {
-    // Must be number value. Adjust as needed.
-    $sidenav.css({
->>>>>>> 3882b1f8fb2835b71bb585977e47cd7f0f5b559e
       'height':'100%',
       'width':'200px', 
       'background-color':'#000'
     });
-<<<<<<< HEAD
 
-    $('.navbar-toggler').css({
+    $('.navbar-toggler').animate({
       'margin-right': '190px'
-    });
+    },150);
   }, 10);
 
-=======
-  }, 10);
->>>>>>> 3882b1f8fb2835b71bb585977e47cd7f0f5b559e
   $toggler.css('color', 'white');
   $sidenav.addClass('show');
 }
 
 function hideSidenav() {
+
+  $('body').css("overflow-y", "scroll");
   $sidenav.css({
     
     'width':'0px', 
     'box-shadow':'none',
     'background':'transparent'
   });
+
+  $('.navbar-toggler').animate({
+    'margin-right': '0px'
+  },250);
+
   window.setTimeout(function() {
-<<<<<<< HEAD
-    $sidenav
+
     $sidenav.css('display', 'none');
 
-    $('.navbar-toggler').css({
-      'margin-right': '0px'
-    });
-  }, 200);
-=======
-    $sidenav.css('display', 'none');
-  }, 500);
->>>>>>> 3882b1f8fb2835b71bb585977e47cd7f0f5b559e
+  }, 400);
+
   $toggler.css('color', 'white')
   $sidenav.removeClass('show');
+
 }
 
 function collapse() {

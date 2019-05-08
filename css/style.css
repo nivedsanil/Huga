@@ -1,4 +1,17 @@
-.sidenav {
+@font-face {
+  font-family: 'Futura LT Condensed Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Condensed Light'), url('fonts/FuturaLT-CondensedLight.woff') format('woff');
+  }
+  
+
+  .no-scroll{
+
+   overflow-x: hidden;
+
+  }
+  .sidenav {
   top: 0;  
   position: absolute;
   right: 0;
@@ -13,6 +26,7 @@
   -webkit-box-direction: normal!important;
   -ms-flex-direction: column!important;
   flex-direction: column!important;
+  overflow: hidden;
 }
 
 body {
@@ -24,7 +38,7 @@ body {
 
   margin-left:0;
   border: none;
-  height: 2px;
+  height: 1px;
   /* Set the hr color */
   color: #00305b;/* old IE */
   background-color:#00305b;/* Modern Browsers */
@@ -35,7 +49,8 @@ body {
 
   padding-bottom: 40px;
   font-size: 18px;
-  width: 90%
+  width: 90%;
+  font-weight: 400;
 }
 .spacing{
 
@@ -44,7 +59,7 @@ body {
 }
 
 .less-spacing{
-  padding-top: 40px;
+  padding-top: 45px;
   padding-bottom:40px;
 }
 
@@ -80,10 +95,6 @@ body {
   padding-top: 150px;
 }
 
-
-  #home-section {
-    }
-
 #hero-text{
 
       padding-top: 80px;
@@ -96,10 +107,9 @@ body {
   padding: 4px;
   border-radius: 5px;
   font-size: 30px;
-  width: 100%;
-  height: auto; 
+  width: auto;
+  height: 100%; 
   }
-
 
 
   #huga-description{
@@ -110,31 +120,20 @@ body {
     color: #00305b;
 
   }
-
+  #head{
+    font-weight: 200;
+  }
   #quote{
 
     font-size: 40px;
+    line-height: 1.3;
   }
 
   .noopacity
   {
     opacity: 0;
   }
- 
-  @media (max-width: 575px) {
-  
-    /*.navbar-collapse
-      {
-        top: 0;
-          padding: 20px;
-          background-color: black;
-          background: rgba(0, 0, 0, 0.8);
-          color: white;
-          width: 10px;
-      }*/
 
-      
-  }
 
   @media screen and (max-width: 1024px) {
     
@@ -145,6 +144,18 @@ body {
       padding-bottom: 20px;
     }
     
+  }
+
+  @media screen and (min-width:950px){
+
+
+    #social-links{
+
+      background-color: #000;
+
+    }
+
+
   }
 
     @media screen and (max-width: 950px) {
@@ -165,18 +176,16 @@ body {
       }
 
       .lead{
-
         padding-bottom:10px;
-       
       }
 
       hr{
-        width: 100%
+        width: 100%;
       }
 
       .navbar{
 
-        padding: 20px
+        padding: 20px;
       }
 
       #hero-text{
@@ -220,6 +229,11 @@ body {
     width: 100%;
    }
 
+   #main-description{
+
+    font-size: 19px;
+
+   }
   
   #huga-description{
 
@@ -229,14 +243,30 @@ body {
   #head{
 
     font-size: 25px;
+
   }
 
   #nametag{
 
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  #social-links{
+
+    background-color: #5f5e5e;
+
   }
 
 }
     
+#main-footer{
+
+  background-color: #000;
+}
+
+.fab
+{
+  padding: 20px 10px;
+}
 
   
