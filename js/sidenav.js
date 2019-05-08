@@ -30,11 +30,12 @@ function showSidenav() {
   $('li').css("opacity", "1");
   $sidenav.css('display', 'flex');
   $sidenav.css('top','0');
+  $('html').css("overflow-y", "hidden");
   $('body').css("overflow-y", "hidden");
   window.setTimeout(function() {
     $sidenav.css({
 
-      'height':'100%',
+      'height':'1200px',
       'width':'200px', 
       'background-color':'#000'
     });
