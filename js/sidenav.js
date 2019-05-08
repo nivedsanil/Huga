@@ -35,7 +35,7 @@ function showSidenav() {
   window.setTimeout(function() {
     $sidenav.css({
 
-      'height':'1200px',
+      'height':'150%',
       'width':'200px', 
       'background-color':'#000'
     });
