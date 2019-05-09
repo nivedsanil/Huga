@@ -131,6 +131,32 @@ body {
     opacity: 0;
   }
 
+  /* Testimonials */
+
+  #testimonials{
+
+    background: #f0cccc;
+    margin: 0;
+    color: black;
+    height: 100%;
+  }
+
+  .testimonial-item{
+
+    padding: 100px;
+    
+  }
+
+
+  .testimonial-message{
+  padding-top: 40px;
+  }
+
+  #testimonial-nametag
+  {
+     font-size: 14px;
+  }
+
 
   @media screen and (max-width: 1024px) {
     
@@ -210,6 +236,16 @@ body {
       a{
         color: white;
       }     
+
+      .testimonial-message{
+        padding-top: 30px;
+        }
+
+        .testimonial-item{
+
+          padding: 50px;
+          height: 600px;
+        }
     }
     
   @media screen and (max-width: 480px) {
