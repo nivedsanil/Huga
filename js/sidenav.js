@@ -30,7 +30,6 @@ function showSidenav() {
   $('li').css("opacity", "1");
   $sidenav.css('display', 'flex');
   $sidenav.css('top','0');
-  $('html').css("overflow-y", "hidden");
   $('body').css("overflow-y", "hidden");
   window.setTimeout(function() {
     $sidenav.css({
