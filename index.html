@@ -146,6 +146,15 @@
   <script src="js/wow.js"></script>
   <script type="text/javascript">
     new WOW().init();
+    
+    $(document).ready(function() {
+    $("#myCarousel").swiperight(function() {
+       $(this).carousel('prev');
+     });
+    $("#myCarousel").swipeleft(function() {
+       $(this).carousel('next');
+    });
+ });
   </script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>

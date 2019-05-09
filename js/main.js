@@ -17,10 +17,10 @@
   }());
 
   $(document).ready(function() {
-    $("#myCarousel").swiperight(function() {
+    $("#HugaCarousel").swiperight(function() {
        $(this).carousel('prev');
      });
-    $("#myCarousel").swipeleft(function() {
+    $("#HugaCarousel").swipeleft(function() {
        $(this).carousel('next');
     });
  });
