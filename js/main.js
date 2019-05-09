@@ -15,14 +15,3 @@
       }, 100);
     });
   }());
-
-  $(document).ready(function() {
-    $("#HugaCarousel").swiperight(function() {
-       $(this).carousel('prev');
-     });
-    $("#HugaCarousel").swipeleft(function() {
-       $(this).carousel('next');
-    });
- });
-
-
