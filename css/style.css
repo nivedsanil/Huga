@@ -157,6 +157,65 @@ body {
      font-size: 14px;
   }
 
+/* Floating footer */
+
+  #floating-footer
+  {
+      background: white;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 70px;  
+      font-size: 20px; 
+      color: #000;
+      float: left;
+      display:flex;
+    justify-content:space-between;
+  }
+
+  #phone{
+
+    color: green;
+    margin-left: 8px;
+  
+  }
+
+  #envelope{
+    color: #BE1867;
+    margin-left: 5px;
+    /* padding-left: 20px; */
+  }
+
+  #instagram{
+    color: red;
+    margin-left: 20px;
+    /* padding-left: 0px; */ */
+  }
+
+  .my-text {
+    display: block;
+    font-size: 12px;
+    padding-top: 5px;
+    /* padding-left: 30px; */
+  }
+
+  #flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    margin: 0 auto; 
+    padding-left: 0px;
+    padding-top: 5px;
+    margin-left: 45px;
+}
+.flex-item {
+
+  width: 60%;
+
+}
+
 
   @media screen and (max-width: 1024px) {
     
@@ -174,7 +233,7 @@ body {
 
     #social-links{
 
-      background-color: #000;
+      /* background-color: #000; */
 
     }
 
@@ -246,6 +305,8 @@ body {
           padding: 50px;
           height: 650px;
         }
+
+        
     }
     
   @media screen and (max-width: 480px) {
@@ -298,9 +359,6 @@ body {
   background-color: #000;
 }
 
-.fab
-{
-  padding: 20px 10px;
-}
+
 
   
