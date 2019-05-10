@@ -206,14 +206,12 @@ body {
     justify-content: space-between;
     width: 350px;
     margin: 0 auto; 
-    padding-left: 0px;
     padding-top: 5px;
-    margin-left: 45px;
 }
 .flex-item {
 
-  width: 60%;
-
+  width: 80%;
+  margin-left: 30px;
 }
 
 
