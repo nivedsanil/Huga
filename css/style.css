@@ -1,10 +1,24 @@
-@font-face {
+/* @font-face {
   font-family: 'Futura LT Condensed Light';
   font-style: normal;
   font-weight: normal;
   src: local('Futura LT Condensed Light'), url('fonts/FuturaLT-CondensedLight.woff') format('woff');
-  }
+  } */
   
+@font-face{
+
+  font-family: 'SourceSansPro-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SourceSansPro-Light'), url('../fonts/SourceSansPro-Light.otf') format('opentype');
+}
+@font-face{
+
+  font-family: 'SourceSansPro-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SourceSansPro-Regular'), url('../fonts/SourceSansPro-Regular.otf') format('opentype');
+}
 
   .no-scroll{
 
@@ -31,7 +45,7 @@
 
 body {
   color: #fff;
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'SourceSansPro-Regular'; 
  }
 
  hr {
@@ -50,7 +64,6 @@ body {
   padding-bottom: 40px;
   font-size: 18px;
   width: 90%;
-  font-weight: 400;
 }
 .spacing{
 
@@ -109,6 +122,8 @@ body {
   }
 
 
+
+
   #huga-description{
 
     background: #f0cccc;
@@ -117,8 +132,9 @@ body {
     color: #00305b;
 
   }
-  #head{
-    font-weight: 200;
+  .light{
+
+    font-family:'SourceSansPro-Light';
   }
   #quote{
 
@@ -157,6 +173,8 @@ body {
      font-size: 14px;
   }
 
+  
+
 /* Floating footer */
 
   #floating-footer
@@ -183,7 +201,7 @@ body {
 
   #envelope{
     color: #BE1867;
-    margin-left: 5px;
+    margin-left: 5px; 
     /* padding-left: 20px; */
   }
 
@@ -214,6 +232,53 @@ body {
   margin-left: 30px;
 }
 
+.s-link{
+  padding: 10px 30px;
+}
+
+
+/*More Case Studies Section*/
+
+
+#case-head{
+
+  background-color: #fbef39;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px; 
+}
+
+
+#more-casestudies
+{
+  padding: 50px;
+  color: black;
+}
+
+#category{
+
+  font-size: 14px;
+}
+
+.card-text{
+
+  font-size: 30px;
+
+}
+
+.card{
+  border-top: none!important;
+  border-left: none!important;
+  border-right: none!important;
+  border-bottom: 3px solid black;
+  border-radius: 0%;
+}
+
+a{
+  color: black;
+}
+
 
   @media screen and (max-width: 1024px) {
     
@@ -231,8 +296,7 @@ body {
 
     #social-links{
 
-      /* background-color: #000; */
-
+      background-color: #000; 
     }
 
 
@@ -276,7 +340,26 @@ body {
         padding-bottom: 20px;
         margin-top: -50px;
       } 
-     
+
+      #more-casestudies
+      {
+        padding-top: 50px;
+        padding-left: 10px;
+        color: black;
+      }
+
+      .card{
+
+        padding-bottom: 20px;
+        margin-top: 30px;
+
+      }
+      #case-head{
+        width: 320px;
+      }
+      .color{
+        color: black !important;
+      }
     }
     
     
@@ -290,7 +373,8 @@ body {
         font-size: 18px;
       }
   
-      a{
+     a{
+
         color: white;
       }     
 
@@ -302,6 +386,10 @@ body {
 
           padding: 50px;
           height: 650px;
+        }
+
+        .s-link{
+          padding: 25px 20px;
         }
 
         
@@ -347,6 +435,7 @@ body {
   #social-links{
 
     background-color: #5f5e5e;
+    padding-bottom: 70px;
 
   }
 
