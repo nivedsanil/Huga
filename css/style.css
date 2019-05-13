@@ -50,6 +50,8 @@ body {
   font-family: 'SourceSansPro-Regular'; 
  }
 
+
+
  hr {
 
   margin-left:0;
@@ -254,7 +256,7 @@ body {
 
 #more-casestudies
 {
-  padding: 50px;
+  padding: 50px 0px;
   color: black;
 }
 
@@ -346,24 +348,22 @@ a{
       #more-casestudies
       {
         padding-top: 50px;
-        padding-left: 10px;
         color: black;
       }
 
       .card{
 
         padding-bottom: 20px;
-        margin-top: 30px;
+        margin: 30px 30px;
+      }
 
-      }
-      #case-head{
-        width: 320px;
-      }
       .color{
         color: black !important;
       }
+
+      button.navbar-toggler:focus { outline: 1px none; }
+
     }
-    
     
     @media screen and (max-width: 650px) {
 
@@ -448,6 +448,26 @@ a{
   background-color: #000;
 }
 
+@media screen and (max-width: 400px)
+{
+  .card{
+
+    padding-bottom: 20px;
+    margin: 20px 10px;
+  }
+
+}
+
+@media screen and (max-width: 350px)
+{
+  .card{
+
+    padding-bottom: 20px;
+    margin: 20px 0px;
+    width: 18rem!important;
+  }
+
+}
 
 
   
