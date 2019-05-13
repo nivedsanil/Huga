@@ -1,4 +1,4 @@
-(function(){
+/*(function(){
     var timeout;
     var $window = $(window);
     var $navbar = $('.navbar');
@@ -14,4 +14,4 @@
         }
       }, 100);
     });
-  }());
+  }());*/

@@ -25,9 +25,11 @@
    overflow-x: hidden;
 
   }
+
+
   .sidenav {
+  position: fixed; 
   top: 0;  
-  position: absolute;
   right: 0;
   width: 0px;
   display: none;
@@ -82,12 +84,12 @@ body {
 
 .navbar {
   padding: 20px 100px;
-  transition: opacity 0.75s;
-  opacity: 1;
+  /*transition: opacity 0.75s;
+  opacity: 1*/;
  }
 
  .navbar.hide {
-  opacity: 0;
+  /*opacity: 0*/;
 }
 
 
