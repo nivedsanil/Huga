@@ -20,6 +20,10 @@
   src: local('SourceSansPro-Regular'), url('../fonts/SourceSansPro-Regular.otf') format('opentype');
 }
 
+a{
+
+  color: white!important;
+}
 body {
   color: #fff;
   font-family: 'SourceSansPro-Regular'; 
@@ -261,6 +265,7 @@ body {
 .card-text{
 
   font-size: 30px;
+  color: black!important;
 
 }
 
@@ -270,10 +275,6 @@ body {
   border-right: none!important;
   border-bottom: 3px solid black;
   border-radius: 0%;
-}
-
-a{
-  color: black;
 }
 
 
