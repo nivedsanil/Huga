@@ -36,6 +36,8 @@ body {
   width: 60%;
 }
 
+
+
 /* Collapsed Side Navbar CSS */
 
   .sidenav {
@@ -58,7 +60,9 @@ body {
 
 
 .navbar {
-  padding: 20px 100px;
+  padding: 0px 100px;
+  height: 50px;
+
  }
 
 /* Spacing Classes */
