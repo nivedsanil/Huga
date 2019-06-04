@@ -1,17 +1,14 @@
-/*(function(){
-    var timeout;
-    var $window = $(window);
-    var $navbar = $('.navbar');
-    
-    $window.on('scroll', function(e){
-      clearTimeout(timeout);
-      
-      timeout = setTimeout(function(){
-        if ($window.scrollTop() < 150) {
-          $navbar.removeClass('hide');
-        } else {
-          $navbar.addClass('hide');
-        }
-      }, 100);
-    });
-  }());*/
+
+$(function() {
+  var header = $(".navbar");
+
+  $(window).scroll(function() {    
+      var scroll = $(window).scrollTop();
+      if (scroll >= 50) {
+          header.addClass("scrolled");
+      } else {
+          header.removeClass("scrolled");
+      }
+  });
+
+});

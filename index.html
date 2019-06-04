@@ -18,41 +18,20 @@
 
 <body>
 
-  <!-- === Navbar ===-->
-  <nav class="navbar navbar-expand-sm bg-transparent navbar-dark fixed-top wow">
-    
-    <a class="navbar-brand d-sm-none d-md-block d-none d-sm-block" href="#">
-      <img src="img/vamoslogo2.png" width="170" height=auto alt="">
-    </a>
-
-    <button class="navbar-toggler ml-auto hidden-sm-up float-xs-right" data-toggle="collapse" data-target="#navbarCollapse">
-                 <span class="navbar-toggler-icon"></span>
-             </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a href="#home" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">Work</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">About</a>
-        </li>
-
-        <li class="nav-item">
-            <a href="" class="nav-link">Blog </a>
-          </li>
-      </ul>
-    </div>
-</nav>
-
-
-<nav class="sidenav"></nav>
-
+  <!-- Navbar -->
+  <div class="navbar sticky-top ">
+    <img src="img/Vamos-Black.png" alt="" width="120px">
+    <a href="javascript:void(0);" class="menu_icon nav-item"></a>
+    <div id="menu">
+         <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Work</a></li>
+           <li><a href="#">Contact Us</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Blog</a></li>
+         </ul>
+       </div>
+</div>
 
 
   <!-- === HOME SECTION === -->
@@ -84,12 +63,12 @@
   <section id="huga-description">
     <div class="custom-container container">
       <div class="row">
-        <div class="col">
+        <div class="col huga-content">
             <h1 class="spacing wow fadeInUp light" id="">Huga for Ice Cream </h1>
-            <hr>
+            <hr class="line">
             <h1 class="less-spacing font-weight-bold wow fadeInUp " id="head">A unified brand<br>experience.</h3>
             <p class="lead wow fadeInUp" id="main-description">Drawing inspiration from the Danish word for Comfort and Well being- Hygge and with the core belief that one should never have to choose between health and indulgent taste.We combined an infectious and inspirational food culture with health conscious people to get a taste of 'good dessert '.</p>
-            <hr>
+            <hr class="line">
             <h2 class="font-weight-bold less-spacing wow fadeInUp" id="quote">" I wanted to recreate the joy of ice cream, with none of the guilt. The kind of ice cream, that everyone of all ages could indulge in, without worry. "</h3>
             <p class="lead light wow fadeInUp" id="nametag"> -Bharat Chandra, Founder, Huga Ice Creams</p>
         </div>
@@ -158,7 +137,7 @@
           <img class="card-img-top" src="img/zee-entertainment.jpg" alt="Card image cap">
           <div class="card-body">
               <p class="light" id="category">CASE STUDY</p>
-              <a class="card-text color" href="" >Zee Entertainment</a>
+              <a class="card-text black" href="" >Zee Entertainment</a>
           </div>
         </div>  
       </div>
@@ -168,7 +147,7 @@
           <img class="card-img-top" src="img/Heraniyaa.JPG" alt="Card image cap">
           <div class="card-body">
               <p class="light" id="category">CASE STUDY</p>
-              <a class="card-text color" href="">Heraniyaa</a>
+              <a class="card-text black" href="">Heraniyaa</a>
           </div>
         </div>  
       </div>
@@ -178,7 +157,7 @@
           <img class="card-img-top" src="img/TheP.OBox.JPG" alt="Card image cap">
           <div class="card-body">
             <p class="light" id="category">CASE STUDY</p>
-            <a class="card-text color" href="">TheP.O.BOX</a>
+            <a class="card-text black" href="">TheP.O.BOX</a>
           </div>
         </div>  
       </div>
@@ -189,29 +168,55 @@
     
 
     <!-- MAIN FOOTER -->
-    <footer id="main-footer">
+    <footer id="main-footer" class="less-spacing">
       <div class="container">
         <div class="row">
-          <div class="col text-center">
-            <div class="py-4">
-              <img src="img/vamoslogo2.png" width="170" height=auto alt="" id="footerimg">
+          <div class="col-sm-12">
+            <div class="float-left" id="footer-item">
+              <img src="img/vamoslogo2.png" width="120" height=auto alt="" id="footerimg" class="mob-margin">
+              <div class="col-sm-12"> </div>
+            </div>
+  
+          <div class="col-sm-12">
+  
+              <div class="float-right" id="footer-location">
+                  <p><i class="fas fa-map-marker-alt" ></i> &nbsp Chennai</i> </p>
+                  <p>No 11 Letangs Road,<br>Vepery,<br> Chennai 600007</p><br>
+                  <p><i class="fas fa-map-marker-alt" ></i> &nbsp Bangalore</p>
+                  <p>224/1 2nd Main, 6th Cross, Defence Colony,<br>Indiranagar,<br> Bangalore - 560038</p><br>
+              </div>
+  
+              <div class="float-right footer-panel pb-3" id="footer-content">
+                  <a href="" class="color">CREATE YOUR BRAND STRATEGY</a><br>
+                  <a href="" class="color">DESIGN YOUR DIGITAL STRATEGY</a><br>
+                  <a href="" class="color">GOOGLE ADWORDS</a><br>
+                  <a href="" class="color">RE-TARGETING</a><br>
+                  <a href="" class="color">SEO</a><br>
+                  <a href="" class="color">SOCIAL MEDIA MARKETING</a><br>
+                  <a href="" class="color">CREATIVE DIRECTION</a><br>
+                  <a href="" class="color">WEB DESIGN &amp DEVELOPMENT</a>
+              </div>
+  
+            <div class="float-right footer-panel d-none d-md-block">
+              <a href="" class="color">HOME</a><br>
+              <a href="" class="color">WORK</a><br>
+              <a href="" class="color">SERVICES</a><br>
+              <a href="" class="color">BLOG</a><br>
+              <a href="" class="color">CONTACT</a>
             </div>
           </div>
-        </div>
-      </div>
-    </footer>
-
-    <footer id="social-links" class="">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-                <a href=""><i class="fab fa-facebook-f s-link"></i></a>
-                <a href=""><i class="fab fa-twitter s-link"></i></a>
-                <a href=""><i class="fab fa-linkedin-in s-link"></i></a>
           </div>
         </div>
+        
+        <hr class="mb-4">
+        <div class="col-sm-12 text-center bottom-padding">
+          <a href=""><i class="fab fa-facebook color"></i></a> 
+          <a href=""><i class="fab fa-twitter-square color"></i></a>
+          <a href=""><i class="fab fa-linkedin color"></i></a>
+          <a href=""><i class="fab fa-instagram color"></i> </a>
+        </div>
       </div>
-    </footer>
+  </footer>
 
     
     <footer id="floating-footer" class="d-block d-sm-none">
