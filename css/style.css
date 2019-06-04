@@ -159,12 +159,13 @@ hr {
   background-position: center center;
   font-size: 55px;
   padding-top: 150px;
-  margin-top: -100px;
+  margin-top: -100px
 }
 
 #hero-text{
   
       padding-left: 35px;
+      padding-top: 30px;
     }
 
     /* Huga Image */
@@ -457,6 +458,14 @@ hr {
     }
     
     @media screen and (max-width: 650px) {
+
+      #home-section {
+
+        font-size: 35px;
+        min-height: 300px;
+        padding-bottom: 20px;
+        padding-top: 180px;
+      }
 
       .navbar{
 
