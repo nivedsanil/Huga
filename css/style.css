@@ -282,10 +282,7 @@ hr {
      justify-content:space-between;
   }
 
-  .bottom-padding{
 
-    padding-bottom: 90px;
-  }
 
   #phone{
 
@@ -406,6 +403,11 @@ hr {
 
       .container.custom-container {
         padding: 0 15px;
+      }
+
+      .bottom-padding{
+
+        padding-bottom: 90px;
       }
 
       .lead{
