@@ -48,19 +48,6 @@ hr {
 
 /* Collapsed Side Navbar CSS */
 
-.navbar{
-
-  height: 50px;
-  padding: 20px 0px 60px 80px!important;
-  background-color: transparent!important;
-  transition: 0.3s;
-}
-
-.scrolled{
-  background-color:white!important;
-  transition: 0.3s;
-}
-
 
 #menu {
   padding-top: 80px;
@@ -71,6 +58,7 @@ hr {
   height: 100%;
   background: #000  ;
 }
+
 
 #menu ul {
   margin: 0;
@@ -109,8 +97,13 @@ hr {
   transition-timing-function: ease-out;
 }
 
+#menu ul li:hover {
+  border-bottom: 1px solid #000;
+}
 
-
+#menu ul li a:hover {
+  color: #000;
+}
 
 .menu_icon {
 
@@ -375,6 +368,22 @@ hr {
 
 }
 
+@media screen and (min-width: 1024px){
+
+  .navbar{
+
+    height: 50px;
+    padding: 20px 0px 60px 80px!important;
+    background-color: transparent;
+    transition: 0.3s;
+  }
+  
+  .scrolled{
+    background-color:white;
+    transition: 0.3s;
+  }
+  
+}
 
   @media screen and (max-width: 1024px) {
     
@@ -428,10 +437,7 @@ hr {
         width: 100%;
       }
 
-      .navbar{
-
-        padding: 10px;
-      }
+     
 /* 
       #hero-text{
 
@@ -470,19 +476,48 @@ hr {
         color:white !important;
       }
 
-      button.navbar-toggler:focus { outline: 1px none; }
-
     }
     
     @media screen and (max-width: 650px) {
 
+      #menu{
+
+        padding-top: 0px;
+      }
+      #navbar-logo{
+
+        position: relative;
+        float: right;
+        right: 30px;
+        padding-bottom: 30px;
+      }
       #menu ul li a {
         padding: 60px 0px 0px 180px;
         text-align: right;
 
       }
-      
 
+      .menu_icon {
+
+       position: relative;
+       left: 310px;
+       top: 20px;    
+ 
+      }
+
+      li{
+
+        text-align: right;
+        padding-top: 0px;
+        padding-right: 20px;
+      }
+  
+     a{
+
+        color: white!important;
+      }   
+
+     
       #home-section {
         padding-top: 120px;
         font-size: 35px;
@@ -496,17 +531,7 @@ hr {
         
         }
 
-      .navbar{
-
-        height: 10px;
-        padding: 20px 0px 60px 20px!important;
-      }
-
-      .menu_icon {
-
-        margin-right: 20px!important;
-        margin-top: -10px;
-      }
+  
 
       #menu {
         padding-top: 20px;
@@ -521,18 +546,7 @@ hr {
         border-radius: 0%;
       }
 
-      li{
-
-        text-align: right;
-        padding-top: 20px;
-        padding-right: 20px;
-        font-size: 18px;
-      }
-  
-     a{
-
-        color: white;
-      }     
+        
 
       .testimonial-message{
         padding-top: 30px;
@@ -554,9 +568,14 @@ hr {
         }
 
         
-    }
+    
+  }
     
   @media screen and (max-width: 480px) {
+    #menu {
+
+      padding-top: 100px;
+    }
     
    h1{
 
