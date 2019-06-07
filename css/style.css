@@ -85,7 +85,7 @@ hr {
 }
 
 #menu ul li a {
-  padding: 60px 60px 0px 60px;
+  padding: 60px 0px 0px 200px;
   text-align: center;
   color: #FFF;
   font-size: 14px;
@@ -109,13 +109,8 @@ hr {
   transition-timing-function: ease-out;
 }
 
-#menu ul li:hover {
-  border-bottom: 1px solid #000;
-}
 
-#menu ul li a:hover {
-  color: #000;
-}
+
 
 .menu_icon {
 
