@@ -155,7 +155,7 @@ hr {
 
   width: 100%;
   padding-left:600px;
-  padding-top: 70px;
+  padding-top: 90px;
 }
 /* #hero-text{
   
@@ -475,6 +475,13 @@ hr {
     }
     
     @media screen and (max-width: 650px) {
+
+      #menu ul li a {
+        padding: 60px 0px 0px 180px;
+        text-align: right;
+
+      }
+      
 
       #home-section {
         padding-top: 120px;
