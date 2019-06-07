@@ -145,12 +145,6 @@ hr {
 
 /* Home Section */
 
-#textwrapper{
-
-  padding: 0 20px;
-}
-
-
 #home-section {
   background: url("../img/Home_Img.PNG") no-repeat;
   min-height: 1000px;
@@ -162,11 +156,18 @@ hr {
   margin-top: -100px
 }
 
+
 #hero-text{
+
+  width: 80%;
+  padding-left: 250px;
+  padding-top: 100px;
+}
+/* #hero-text{
   
       padding-left: 35px;
       padding-top: 30px;
-    }
+    } */
 
     /* Huga Image */
 
@@ -331,7 +332,7 @@ hr {
 
 #case-head{
 
-  background-color: #fbef39;
+  background-color: #FFCB00;
   height: 50px;
   text-align: center;
   vertical-align: middle;
@@ -358,11 +359,23 @@ hr {
 }
 
 .card{
-  border-top: none!important;
+  /* border-top: none!important;
   border-left: none!important;
-  border-right: none!important;
-  border-bottom: 3px solid black;
+  border-right: none!important; */
+  /* border-bottom: 3px solid black; */
+  border: none!important;
   border-radius: 0%;
+}
+
+.bottom-line{
+
+  margin-left:0;
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: black;/* old IE */
+  background-color:black;/* Modern Browsers */
+
 }
 
 
@@ -408,7 +421,7 @@ hr {
       .bottom-padding{
 
         padding-bottom: 90px;
-      }
+      } 
 
       .lead{
         padding-bottom:10px;
@@ -422,7 +435,7 @@ hr {
 
         padding: 10px;
       }
-
+/* 
       #hero-text{
 
         padding-top: 0px;
@@ -430,7 +443,14 @@ hr {
         font-size: 30px;
         padding-bottom: 20px;
         margin-top: -50px;
-      } 
+      }  */
+
+      #hero-text{
+
+        width: 100%;
+        padding: 0px!important;
+      }
+      
 
       #more-casestudies
       {
@@ -460,11 +480,11 @@ hr {
     @media screen and (max-width: 650px) {
 
       #home-section {
-
+        padding-top: 120px;
         font-size: 35px;
         min-height: 300px;
-        padding-bottom: 20px;
-        padding-top: 180px;
+        /* padding-bottom: 20px; */
+        /* padding-top: 180px; */
       }
 
       .testimonial-message{
@@ -554,7 +574,7 @@ hr {
     font-size: 25px;
 
   }
-s
+
   #nametag{
 
     font-size: 14px;
