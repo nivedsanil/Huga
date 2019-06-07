@@ -90,7 +90,6 @@ hr {
   color: #FFF;
   font-size: 14px;
   font-weight: bold;
-  text-transform: uppercase;
   display: block;
   text-decoration: none;
   -webkit-transition-property: all;
@@ -159,9 +158,9 @@ hr {
 
 #hero-text{
 
-  width: 80%;
-  padding-left: 250px;
-  padding-top: 100px;
+  width: 100%;
+  padding-left:600px;
+  padding-top: 70px;
 }
 /* #hero-text{
   
@@ -351,6 +350,14 @@ hr {
   font-size: 14px;
 }
 
+.card{
+
+  border: none;
+  border-radius: 0%;
+
+ 
+}
+
 .card-text{
 
   font-size: 30px;
@@ -358,14 +365,9 @@ hr {
 
 }
 
-.card{
-  /* border-top: none!important;
-  border-left: none!important;
-  border-right: none!important; */
-  /* border-bottom: 3px solid black; */
-  border: none!important;
-  border-radius: 0%;
-}
+
+
+
 
 .bottom-line{
 
@@ -506,6 +508,15 @@ hr {
 
       #menu {
         padding-top: 20px;
+      }
+
+      .card{
+        
+        border-top: none!important;
+        border-left: none!important;
+        border-right: none!important;
+        border-bottom: 3px solid black; 
+        border-radius: 0%;
       }
 
       li{
